@@ -8,8 +8,7 @@ The projects under this repository are as follows :
 
 ### 01. Go : Web-Server
 
-Here, I learned the following :
-
+**Learning outcomes**
 1. How to setup a basic web-server.
 2. Handle incoming POST and GET requests. 
 3. Serve static files using your own file server.
