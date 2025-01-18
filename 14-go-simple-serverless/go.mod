@@ -1,4 +1,4 @@
-module go-simple-serverless
+module go-lambda-1
 
 go 1.23.2
 

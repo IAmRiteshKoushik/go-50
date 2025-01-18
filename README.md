@@ -7,32 +7,36 @@ of my own.
 The projects under this repository are as follows :
 
 ### 01. Go : Web-Server
-
-**Learning outcomes**
-1. How to setup a basic web-server.
-2. Handle incoming POST and GET requests. 
-3. Serve static files using your own file server.
-
+Complete
 ### 02. Go : CRUD API 
+Completed
 ### 03. Go : MySQL Connectivity
+Completed
 ### 04. Go : MongoDB Connectivity
+Completed
 ### 05. Go : PostgreSQL Connectivity
+Completed
 ### 06. Go : Email Verifier
 ### 07. Go : File Uploader (Slack Bot)
 ### 08. Go : Age Calculator (Slack Bot)
 ### 09. Go : Complete Slack Bot
 ### 10. Go : Weather Tracker
+Completed
 ### 11. Go : Complete Discord Bot
 ### 12. Go : Containerize a Go lang Project (Docker)
 ### 13. Go : Deploy Go App on AWS (EC2)
-### 14. Go : Deploy Go App on AWS (Lambda)
+### 14. Go : Deploy Go App on AWS Serverless (Lambda)
+Completed
 ### 15. Go : Consume Pexels API
 ### 16. Go : Simple CRM (go-Fiber)
 ### 17. Go : HR Management (go-Fiber, MongoDB)
 ### 18. Go : Caching with Go 
 ### 19. Go : Build Your Own Database
+Completed
 ### 20. Go : Build a Load Balancer
+Completed
 ### 21. Go : Serverless (AWS Lambda - Better)
+Ongoing
 ### 22. Go : AI Bot (Wit.Ai + Wolfram)
 ### 23. Go : Build Your Own Blockchain
 ### 24. Go : CLI Tool
@@ -57,6 +61,7 @@ The projects under this repository are as follows :
 ### 43. Go : Ecommerce Backend
 ### 44. Go : OTP + Verification (Twilio)
 ### 45. Go : AWS Serverless Stack
+Ongoing
 ### 46. Go : Restaurant Management Backend
 ### 47. Go : Proof of Work - Blockchain (Advanced Concepts)
 ### 48. Go : GraphQL + MongoDB (CRUD project)
