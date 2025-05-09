@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SSE Experiments</title>
+</head>
+<body>
+    <!-- Dashboard -->
+    <h2>Real-time System Monitoring</h2>
+    <p>
+      Memory Usage: 
+      <br>
+      <span id="mem"></span>
+      <br>
+      <span id="cpu"></span>
+    </p>
+
+    <!-- JavaScript -->
+    <script type="text/javascript">
+      const eventSource = new EventSource("http://127.0.0.1:8080/events");
+
+      const memSpan = document.getElementById("mem");
+      const cpuSpan = document.getElementById("cpu");
+
+      eventSource.addEventListener("mem", (event) => {
+        memSpan.textContent = event.data;
+      });
+
+      eventSource.addEventListener("cpu", (event) => {
+        cpuSpan.textContent = event.data;
+      });
+
+      eventSource.onerror = (err) => {
+        console.error("SSE error", err);
+      };
+    </script>
+</body>
+</html>
